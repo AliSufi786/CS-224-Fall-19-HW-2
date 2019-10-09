@@ -1,4 +1,8 @@
-class Game {
+#include "Map.hpp"
+#include "Player.hpp"
+#include <string>
+class Game
+{
 private:
   Map m_map;        // the map to be played.
   Player m_player;  // the player.

@@ -16,7 +16,12 @@ private:
   Road *m_north, *m_south, *m_east, *m_west;
 
 public:
+
+
+  Location(std::string)://initialize name
   Location(std::string, std::string); // initialize name and special.
+
+  void set_special(std::string): // initialize special
 
   std::string get_name();    // returns this location's name.
   std::string get_special(); // returns this location's special characteristic.
